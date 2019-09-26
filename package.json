@@ -1,22 +1,17 @@
 {
-  "name": "git",
+  "name": "pulse",
   "version": "1.0.0",
-  "description": "how its work",
-  "main": "script.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ackrmn/project.git"
+    "url": "git+https://github.com/Ackrmn/pulse.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ackrmn/project/issues"
-  },
-  "homepage": "https://github.com/Ackrmn/project#readme",
-  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
