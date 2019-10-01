@@ -1,7 +1,7 @@
 .consultation {
     min-height: 680px;
-    background: url('../../img/bg2.jpg') center (center/cover) no-repeat;
-    padding: 85px 0 92px 0;
+    background: url('../img/bg2.jpg') center (center/cover) no-repeat;
+    padding: 100px 0 92px 0;
     &-headers {
         &__header {
             color: #ffffff;
@@ -15,6 +15,10 @@
             color: #ffffff;
             font-size: 20px;
             font-weight: 500;
+            line-height: 23px;
         }
+    }
+    &-feedform {
+        margin-top: 36px;
     }
 }
