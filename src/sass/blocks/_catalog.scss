@@ -46,10 +46,11 @@
         margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
     &-item {
-        margin: 0 20px 20px 0;
+        position: relative;
+        margin-bottom: 20px;
         width: 300px;
         min-height: 440px;
         border: 2px solid #e8e8e8;
@@ -153,8 +154,22 @@
                     background-color: $main-color;
                     left: -14px;
                     top: 7px;
-
                 }
+            }
+        }
+        &__back {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            color: $main-color;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: underline;
+            text-transform: uppercase;
+            &:hover {
+                color: $main-color;
             }
         }
     }
