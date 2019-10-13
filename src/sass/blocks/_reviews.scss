@@ -1,0 +1,46 @@
+.reviews {
+    padding-bottom: 70px;
+    &__title {
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    hr {
+        width: 940px;
+        height: 1px;
+        background-color: #f6f6f6;
+        border: none;
+        margin: 50px 0 50px 0;
+    }
+    &-content {
+        margin-top: 70px;
+    }
+    &-wrapper {
+        display: flex;
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__marathons {
+            margin-top: 5px;
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &__text {
+            margin-top: 15px;
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+        &__img {
+            width: 169px;
+            height: 169px;
+            margin-right: 62px;
+        }
+    }
+}
